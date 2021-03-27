@@ -1,0 +1,30 @@
+
+PRE-PROCESSING
+
+PP_0_assemble_treatment_data
+PP_1_adjust_and_treat_fuels
+PP_2_batch_basic_FlamMap
+PP_3_management_constraints.py
+
+RADS
+
+RISK ASSESSMENT
+RA_1_process_spatial_inputs
+RA_2_cNVC_Technosylva_style
+RA_3_eNVC_Technosylva_style
+TB_1_treated_risk 
+SO_1_minimize_risk
+SO_2_map_results_risk
+
+ECOLOGICAL BENEFITS ASSESSMENT
+EBA_1_process_spatial_inputs
+EBA_2_dcNVC
+SO_1_maximize_ecobenefits
+SO_2_map_results_ecobenefits
+
+COMBINING PRIORITIES
+SO_3_report_combined_inputs
+
+O_1_map_fire_simulation - makes OK maps of the fire behavior outputs by scenario
+O_2_environmental_drivers - makes the summary bar graphs of the fire behavior outputs
+O_3_exposure_analysis - calculates expected area burned (EAB) by HVRA and cNVC class
